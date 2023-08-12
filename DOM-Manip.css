@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-image: url('https://img.freepik.com/free-vector/film-strip-background-with-clapper-board_1017-33456.jpg');
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+#main-heading{
+    position: absolute;
+    top: 0;
+    margin: 20px auto;
+    background-color: #0031566d;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+
+}
+
+ul{
+    background-color: #013f55ca;
+    width: 50%;
+    margin-top: 30px;
+    
+}
+ul li{ 
+    margin: 50px auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 30px;
+    list-style-type: none;
+    
+}
